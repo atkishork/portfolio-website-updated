@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kishor K - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+<div class="sidebar-info">
+  <a href="./assets/images/kishor-k.jpg" target="_blank" rel="noopener noreferrer" title="Click me!">
+    <figure class="avatar-box">
+      <img src="./assets/images/my-avatar.png" alt="Kishor K" width="80">
+      <span class="active-status" title="Available for work!"></span>
+    </figure>
+  </a>
+
+  <div class="info-content">
+    <h1 class="name" title="Kishor K">Kishor Kumar</h1>
+    <p class="title">Full Stack Developer</p>
+  </div>
+  <button class="info_more-btn" data-sidebar-btn>
+    <span>Show Contacts</span>
+    <ion-icon name="chevron-down"></ion-icon>
+  </button>
+</div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kishorkumar83076@gmail.com" class="contact-link"><span class="__cf_email__" data-cfemail="4726262c26342f35262d252629342f2e727f07202a262e2b6924282a">kishorkumar83076@gmail.com</span></a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 6294 265 752" class="contact-link">+91 6294 265 752</a>
+            </div>
+
+          </li>
+
+          <!-- birthday -->
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-09-26">Sep 26, 1999</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Jalpaiguri, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kishork22" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/atkishork" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://g.dev/atkishork" target="_blank" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/atkishork" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A passionate Flutter developer with strong expertise in cross-platform apps, REST APIs, UI/UX, widgets, and state management solutions. 
+            Proven track record in delivering cutting-edge solutions, including API integration, third-party libraries, and performance optimization. 
+            Adept at debugging to ensure high-quality, responsive apps and An agile collaborator committed to staying current with industry trends.
+          </p>
+
+          <p>
+            If you're seeking a skilled Flutter developer to breathe life into your project and exceed your expectations, 
+            I am here to collaborate and create magic together. 
+            Reach out, and let's transform your vision into a reality!
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ml.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Professional development of machine learning applications and solutions.
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-backend.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                <p class="service-item-text">
+                  High-performance backend services designed for scalability and seamless user experience.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> 
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Expertise In</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                <img src="./assets/skills/Html.svg" alt="client logo" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                <img src="./assets/skills/Css.svg" alt="client logo" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                <img src="./assets/skills/Javascript.svg" alt="client logo" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://react.dev" target="_blank">
+                <img src="./assets/skills/React.svg" alt="client logo" style="filter: none;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://nodejs.org" target="_blank">
+                <img src="./assets/skills/Node.svg" alt="client logo" style="filter: none;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://mongodb.com" target="_blank">
+                <img src="./assets/skills/Mongo.svg" alt="client logo" style="filter: none;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.mysql.com" target="_blank">
+                <img src="./assets\skills\Mysql.svg" alt="client logo" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://figma.com/" target="_blank">
+                <img src="./assets\skills\Figma.svg" alt="client logo" >
+              </a>
+            </li>
+
+
+            <li class="clients-item">
+              <a href="https://www.git-scm.com/" target="_blank">
+                <img src="./assets/skills/Git.svg" alt="client logo" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.python.org/" target="_blank">
+                <img src="./assets/skills/Python.svg" alt="client logo" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://java.com/" target="_blank">
+                <img src="./assets/skills/Java.svg" alt="client logo" >
+              </a>
+            </li>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Jalpaiguri Government Engineering College</h4>
+              <p class="timeline-text">Bachelor of Technology in Computer Science and Engineering (B.Tech CSE)</p>
+              <span>2023 — 2026</span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Asansol Institute of Engineering and Management - Polytechnic</h4>
+              <p class="timeline-text">Diploma in Computer Science and Technology</p>
+              <span>2019 — 2022</span>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">St. Michael's School</h4>
+                <p class="timeline-text">Class 10th</p>
+                <span>2018 — 2019</span>
+              </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+        
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IT Support Engineer - Intern</h4>
+              <p class="timeline-text">ZAP Info Services</p>
+              <span data-start-date="2022-01-20" data-end-date="2023-11-20">Jan, 2022 — Sep, 2023 &nbsp; &#8226; <span class="duration"></span>
+              <p class="timeline-text"><i>Asansol, India</i></p>
+              <ul class="timeline-text">
+                <li>Installed and configured IT systems for high-profile clients including TATA AIG, HDFC Bank, and SBI Bank, ensuring seamless deployment and optimal performance.</li>
+                <li>Diagnosed and resolved hardware and software issues, reducing system fault risk by 15–20% through proactive troubleshooting.</li>
+                <li>Implemented cloud backup solutions and remote server configurations to enhance data security and reduce local internet traffic.</li>
+                <li>Managed routine data backups, ensuring consistent data availability and disaster recovery readiness for enterprise environments.</li>
+                <li>Maintained system integrity and uptime by conducting regular performance audits and applying preventive maintenance measures.</li>
+                <li>Provided technical support and training to client teams, improving overall user efficiency and system utilization.</li>
+              </ul>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Instructor - Intern</h4>
+              <p class="timeline-text">GradeUp Pvt. Ltd.</p>
+              <span data-start-date="2021-08-21" data-end-date="2021-10-21">Aug, 2021 — Oct, 2021 &nbsp; &#8226; <span class="duration"></span></span>
+              <p class="timeline-text"><i>Remote</i></p>
+              <ul class="timeline-text">
+                <li>Contributed to the development of high-quality Physics solutions for academic platforms, focusing on Board Exams, JEE/NEET, and JEE Advanced preparation.</li>
+                <li>Analyzed complex Physics problems and delivered accurate, step-by-step solutions to enhance student understanding and engagement. </li>
+                <li>Ensured content accuracy and alignment with current syllabus standards and competitive exam patterns.</li>
+                <li>Collaborated with subject matter experts to maintain consistency and clarity across all solutions and explanations.</li>
+                <li>Supported content review and quality assurance processes to uphold educational standards and learner satisfaction.</li>
+                <li>Created and compiled solution eBooks tailored to specific exam patterns and syllabus requirements.</li>
+                <li>Played a key role in enhancing the learning experience by delivering well-structured and accessible study materials.</li>
+              </ul>
+            </li>
+
+            <!-- <li class="timeline-item">
+              <div class="timeline-item-header">
+                <div class="company-logo">
+                  <img src="./assets/clients/yajtech_logo.png">
+                </div>
+                <div class="timeline-item-content">
+                  <h4 class="h4 timeline-item-title">Flutter Developer Intern</h4>
+                  <p class="timeline-text">YAJ Tech Pvt. Ltd</p>
+                  <span data-start-date="2022-04-01" data-end-date="2022-09-01">May, 2022 — Sep, 2022 &nbsp; &#8226; <span class="duration"></span></span>
+                  <p class="timeline-text"><i>Kathmandu, Nepal</i></p>
+                </div>
+              </div>
+              <ul class="timeline-text">
+                <li>Assisted in developing and maintaining Flutter applications, ensuring seamless functionality and user-friendly interfaces.</li>
+              </ul>
+            </li> -->
+
+          </ol>
+        </section>
+        
+
+        <button class="form-btn" type="button" data-form-btn onclick="window.open('./assets/cv/Kishor_Kumar_Resume.pdf')">
+          <ion-icon name="document-text-outline"></ion-icon>
+          <span>Download CV</span>
+        </button>
+
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX Design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> 
+
+        <!--
+          - Clients
+        -->
+<!-- 
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets\clients\tokma.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/clients/inflancer.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets\clients\yajtech.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>UI/UX</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>UI/UX</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="movie-recommendation-using-apriori.onrender.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/projects/apriori.png" alt="movie-recommendation-using-apriori App" loading="lazy">
+                </figure>
+                <h3 class="project-title">Movie Recommendation System</h3>
+                <p class="project-category">Machine Learning</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://jgec-examdb.vercel.app" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/projects/jgec-examdb.png" alt="jgec-examdb" loading="lazy">
+                </figure>
+                <h3 class="project-title">JGEC ExamDB</h3>
+                <p class="project-category">Web Development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ui/ux">
+              <a href="https://atkishork.github.io/emojimosiacgenerator/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/projects/emoji-mosaic.png" alt="emojimosiacgenerator" loading="lazy">
+                </figure>
+                <h3 class="project-title">Emoji Mosiac Generator</h3>
+                <p class="project-category">Web Development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://atkishork.github.io/Kishor-K-Resume-Website/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/projects/resume.png" alt="resume website" loading="lazy">
+                </figure>
+                <h3 class="project-title">Resume Website</h3>
+                <p class="project-category">Web Development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github-usr.vercel.app" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/projects/github-usr.png" alt="github user search" loading="lazy">
+                </figure>
+                <h3 class="project-title">Github User Search</h3>
+                <p class="project-category">Web Development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="./assets/projects/portfolio.png" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/projects/portfolio.png" alt="ifood" loading="lazy">
+                </figure>
+                <h3 class="project-title">Portfolio Website</h3>
+                <p class="project-category">Web Development</p>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://medium.com/@at.kishor.k/demystifying-base32-an-in-depth-guide-to-this-encoding-standard-697b9426fc25" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/blogs/blog1.webp" alt="Demystifying Base32: An In-Depth Guide to This Encoding Standard" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Blog</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06-26">June 26, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Demystifying Base32: An In-Depth Guide to This Encoding Standard</h3>
+
+                  <p class="blog-text" style="overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical;">
+                    Explore about the base32 encoding system. </p>
+                </div>
+
+              </a>
+            </li>
+
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@at.kishor.k/introduction-to-python-essential-libraries-numpy-cbe5b04d9e0c" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/blogs/blog2.webp" alt="Introduction to Python Essential Libraries : NumPy" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Blog</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06-20">June 20, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Introduction to Python Essential Libraries : NumPy</h3>
+
+                  <p class="blog-text" style="overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical;">
+                    Explore about the python's Numpy library. </p>
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=jalpaiguri+Government+Engineering+College+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <!-- support -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Support</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://iili.io/2tKHzpn.jpg" target="_blank">
+                <img src="./assets/payments/esewa.svg" alt="client logo" height="100" width="100" ">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://iili.io/2tKKVZF.jpg" target="_blank">
+                <img src="./assets/payments/khalti.svg" alt="client logo" height="100" width="100" ">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://iili.io/2tKHTIs.jpg" target="_blank">
+                <img src="./assets/payments/imepay.svg" alt="client logo" height="100" width="100" ">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+        
+
+        <!-- contact form -->
+
+    <section class="contact-form">
+      <h3 class="h3 form-title">Contact Form</h3>
+    
+      <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+        <input type="hidden" name="access_key" value="8c988349-b968-4102-a233-c50a4a83fa71">
+        <input type="hidden" name="from_name" value="Portfolio">
+    
+        <div class="input-wrapper">
+          <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+          <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+        </div>
+    
+        <input type="text" name="subject" class="form-input" placeholder="Subject" required data-form-input>
+    
+        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+    
+        <button class="form-btn" type="submit" disabled data-form-btn>
+          <ion-icon name="paper-plane"></ion-icon>
+          <span>Send Message</span>
+        </button>
+      </form>
+    </section>
+    
+    
+
+    <div id="toast" class="toast"></div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+       </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!--
+    - experience calculator
+  -->
+  <script src="./assets/js/experience-calculator.js"></script>
+
+<!-- 
+- chatbot 
+-->
+
+<!-- <script type='text/javascript'>
+  (function(I, L, T, i, c, k, s) {if(I.iticks) return;I.iticks = {host:c, settings:s, clientId:k, cdn:L, queue:[]};var h = T.head || T.documentElement;var e = T.createElement(i);var l = I.location;e.async = true;e.src = (L||c)+'/client/inject-v2.min.js';h.insertBefore(e, h.firstChild);I.iticks.call = function(a, b) {I.iticks.queue.push([a, b]);};})(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', 'QDSJoM9bye7eFGLsn_c', {});
+</script> -->
+
+
+                  
+
+</body>
+
+</html>
